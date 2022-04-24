@@ -9,5 +9,12 @@ public class Types {
 
         int inteiroPrimitivo = Integer.valueOf(20);
         System.out.println(inteiroPrimitivo);
+
+        // boxing
+        inteiroObj = inteiro;
+
+        // unboxing
+        inteiro = inteiroObj;
+
     }
 }
